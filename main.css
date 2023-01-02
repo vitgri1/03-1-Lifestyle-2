@@ -15,6 +15,7 @@ header > div> img{
     float: left;
     width: 60px;
     height: 60px;
+    margin-left: 200px;
 }
 header > div> p{
     float: left;
@@ -47,4 +48,43 @@ nav > a:first-child{
 nav > a:hover{
     text-decoration: underline #FE451F;
     color: #FE451F;
+}
+main > div{
+    float: left;
+    width: 430px;
+    margin-left: 200px;
+}
+main > div > h1{
+    margin: 0;
+    margin-top: 200px;
+    line-height: 1em;
+    font-size: 50px;
+    font-weight: normal;
+}
+main > div > p{
+    margin: 0;
+    margin-top: 20px;
+    line-height: 1em;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+main > div > a{
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1em;
+    text-decoration: none;
+    background-color: #FE451F;
+    padding: 0.5em 2em;
+    border-radius: 0.25em;
+}
+main > div > a:hover{
+    background-color: #007D99;
+    box-shadow: 2px 2px 4px black;
+}   
+main > img{
+    float: right;
+    width: 50%;
+    margin-right: 50px;
+    margin-top: 150px;
 }
